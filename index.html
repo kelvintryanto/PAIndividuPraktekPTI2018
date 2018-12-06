@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Mania</title>
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+</head>
+
+<body ng-app="myApp" class="header">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-semitransparent" ng-controller="myController" ng-show="loggedIn">
+    <a class="navbar-brand" href="/home">Movie Mania</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mr-auto">
+        <a class="nav-item nav-link" href="/aboutme">About Me</a>
+      </div>
+      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" ng-click="logout()">Log Out</button>      
+    </div>
+  </nav>
+
+  <div ng-view>
+
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.min.js"></script>
+  <script src="js/angular-route.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>    
+  <script type="text/javascript" src="js/script.js"></script>
+  
+</body>
+</html>
