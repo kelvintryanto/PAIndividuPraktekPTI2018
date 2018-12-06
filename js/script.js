@@ -21,20 +21,18 @@ app.config(function($routeProvider,$locationProvider){
 })
 
 app.controller('homeCtrl', ['$scope', function($scope){
-	var data = "{}";
-
-	var xhr = new XMLHttpRequest();
-	xhr.withCredentials = true;
-
-	xhr.addEventListener("readystatechange", function () {
-		if (this.readyState === this.DONE) {
-			console.log(this.responseText);
-		}
-	});
-
-	xhr.open("GET", "https://api.themoviedb.org/3/movie/now_playing?page=1&language=en-US&api_key=0ef9f010abd55b80f8d07f2cf200ea9a");
-
-	xhr.send(data);
+	var settings = {
+		"async": true,
+		"crossDomain": true,
+		"url": "https://api.themoviedb.org/3/movie/now_playing?page=1&language=en-US&api_key=0ef9f010abd55b80f8d07f2cf200ea9a",
+		"method": "GET",
+		"headers": {},
+		"data": "{}"
+	  }
+	  
+	  $.ajax(settings).done(function (response) {
+		console.log(response);
+	  });
 }])
 
 app.controller('aboutmeCtrl', ['$scope', function($scope){
