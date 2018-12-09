@@ -1,0 +1,24 @@
+Name : Alucard
+Alias : Demon Hunter
+Role : Fighter/Assasin
+Specialty : Charge/Crowd Control
+
+Description : 
+When just a child, both of Alucard's parents were killed by demons and he was imprisoned and suffered cruelties at their hands for several months, until finally he was rescued by demon hunters and raised by them. From a young age, he was raised to be an outstanting demon hunter, with an extreme enmity for the demon race. The three iron laws of the demon hunters are: Swear no allegiance to any army; Spare not a single one of demonkind. Never stop carrying out missions.
+
+Skill 1 : Pursuit	
+If it hits 1 enemy, deals damage x 1.2. If it hits 2 enemy, deals damage x 1.1. Next basic attack after using skill deals damage x 1.2 and move to the target.
+
+Skill 2 : Ground Splitter
+Leaps forward and launches 1 strikes. Each strike deals 240/270/300/330/360/390 physical damage to the enemy and slow them down.
+Cooldown : 
+
+Skill 3 : Whirling Smash
+Slashes at enemies in the area, dealing 230/260/290/320/350/380 physical damage
+Cooldown : 
+
+Skill 4 : Fission Wave
+Raises the hero's physical lifesteal 20% and also locks onto an enemy, dealing extra damage with any attacks on the target and raising lifesteal 100% for 8s. While the skill lasts, the hero can fire powerful attack waves forward, dealing 440/600/760 physical damage to enemies.
+Cooldown : 
+
+Video URL : null

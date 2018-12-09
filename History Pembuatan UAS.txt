@@ -40,3 +40,8 @@ mengembalikan json dan langsung bisa diparse
 06/12/2018 23:02 selesai bikin routing untuk login, home, dan about me, sekarang buat home, untuk menerima masukan dari now playing the moviedb
 06/12/2018 23:35 gagal mengambil nowplaying json, gimana caranya untuk mengambil dari localhost, coba tanya sama boma atau kenneth.
 06/12/2018 23:39 berhasil menggunakan jquery, parse.JSON dari responsetext, baca kembali perintah di elearning tentang NOW PLAYING
+
+07/12/2018 10:20 setelah bangun, pembuatan aboutme.html, kenapa ga mau masuk white-transparentnya? udah coba clear cache tetap ga bisa
+07/12/2018 11:36 sudah membuat aboutme.html, white-container diganti menjadi white-transparent
+lanjut pembuatan home.html, mau dibuat seperti week10
+07/12/2018 12:48 sudah selesai makan, belum mandi, cari cara buat 

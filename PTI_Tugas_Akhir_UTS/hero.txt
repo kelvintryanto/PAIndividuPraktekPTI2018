@@ -1,0 +1,872 @@
+[
+	{
+		"id" : "1",
+		"name" : "Alucard",
+		"alias" : "Demon Hunter",
+		"role" : "Fighter/Assasin",
+		"specialty" : "Charge/Crowd Control",
+		"imageURL" : "img/Alucard/square.png",
+		"backImage" : "img/Alucard/background.png",
+		"background" : "When just a child, both of Alucard's parents were killed by demons and he was imprisoned and suffered cruelties at their hands for several months, until finally he was rescued by demon hunters and raised by them. From a young age, he was raised to be an outstanting demon hunter, with an extreme enmity for the demon race. The three iron laws of the demon hunters are: Swear no allegiance to any army; Spare not a single one of demonkind. Never stop carrying out missions.",
+		"abilities": 
+		[
+			{
+				"skill1": 
+				{ 
+					"name" : "Pursuit",
+					"description" : "If it hits 1 enemy, deals damage x 1.2. If it hits 2 enemy, deals damage x 1.1. Next basic attack after using skill deals damage x 1.2 and move to the target.",
+					"imageURL" : "img/Alucard/skill1.png"
+				},
+				"skill2":
+				{
+					"name" : "Ground Splitter",
+					"description" : "Leaps forward and launches 1 strikes. Each strike deals 240/270/300/330/360/390 physical damage to the enemy and slow them down.",
+					"imageURL" : "img/Alucard/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Whirling Smash",
+					"description" : "Slashes at enemies in the area, dealing 230/260/290/320/350/380 physical damage",
+					"imageURL" : "img/Alucard/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Fission Wave",
+					"description" : "Raises the hero's physical lifesteal 20% and also locks onto an enemy, dealing extra damage with any attacks on the target and raising lifesteal 100% for 8s. While the skill lasts, the hero can fire powerful attack waves forward, dealing 440/600/760 physical damage to enemies.",
+					"imageURL" : "img/Alucard/skill4.png"
+				}
+			}
+		]
+
+	},
+	{
+		"id" : "2",
+		"name" : "Angela",
+		"alias" : "Bunny Love",
+		"role" : "Support",
+		"specialty" : "Regen/Poke",
+		"imageURL" : "img/Angela/square.png",
+		"backImage" : "img/Angela/background.png",
+		"background" : "Dr. Gogh was one of the founders of lab 1718, an institution created with the aim bringing peace to the world. But as his co-founders fell deeper and deeper into their depraved human waeponization experiments, Dr. Gogh felt he had no choice but to leave and pursue a new project. Renouncing the questionable ethics of human experimentation, he endeavored to create a new kind of lifeform. solely from a mechanical skeleton, puppet strings, and synthetic skun and finnaly. a new generation of artificial life was born. Dr. Gogh firmly believed that love and hope were the greatest inventations of mankind, so he programmed the world's most moving stories into the heart of his new creation. One bright morning, Peace Android Prototype 1 awakened from her bed, and Dr. Gogh bestowed upon this adorable mechanical angel, the Name Angela. Angela followed Dr. Gogh's tutelage, studying hard to understand the world, and hoping to meet the doctor's high expectations. However, their peaceful life together was soon cut short. When the mad scientist of lab 1718 heard rumors that Dr. Gogh had created a living soul outside of a human body, they couldn't believe it. They convinved themeseleves that Gogh ha betrayed them, keeping this knowledge to himself before fleeing, and so they ordered Dr. Gogh's past creations, Alpha and Beta to hunt down Dr. Gogh and his creation. As their pursuers were just about to close in on them, Dr. Gogh placed Angela into a flight capsule, instructing her to seek out his good friend Rooney",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Smart Heart",
+					"description" : "Each time Angela uses a skill, her movement speed increases by 10% for 4s, up to 30%. This acceleration effect will also be applied to her attached ally.",
+					"imageURL" : "img/Angela/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Love Waves",
+					"description" : "Launched love energy in a designated direction, dealing 200(+3) magic damage and adding a Lover's Mark. Each stack of Lover's Mark increases damage taken by 10% and reduces movement speed by 15%. Lasts 4s and can be stacked up to 5 times. Restores 100(+1) HP to friendly targets. Up to 5 charges can be restored.",
+					"imageURL" : "img/Angela/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Puppet-On-A-String",
+					"description" : "Launches a puppet string at the specified target, dealing 300(+11) magic damage. If the target is still connected to the string after 3s, they will be immobilized for 2s and take 450(+17) magic damage. Each Lover's Mark increases the final damage by 20%.",
+					"imageURL" : "img/Angela/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Heartguard",
+					"description" : "Angela gathers energy to generate a shield for a friendly target, absorbing 1200(+78) damage for 3s. After a period of time, she becomes attached to the friendly target for 12s. If you use this skill again, or if the friendly target dies, this effect will be cancelled.",
+					"imageURL" : "img/Angela/skill4.png"
+				}
+
+			}
+		]
+	},
+	{
+		"id" : "3",
+		"name" : "Estes",
+		"alias" : "Moon Elf King",
+		"role" : "Support",
+		"specialty" : "Regen/Cost",
+		"imageURL" : "img/Estes/square.png",
+		"backImage" : "img/Estes/background.png",
+		"background" : "At the habitat of moon elves, somewhere west of the Moonlake, here locates the legendary Emerald Woodland, which was the birthplace of the first generation of elves. Every elven king was born in the Tree of Life at the center of the Emerald Woodland. The elven king of present generation is the unique Estes, who was badly hurt during the second plane war and had to go into sleep in the Emerald Woodland. Moon elves lost the guide from their king ever since. However, when the flames of wars between human and orcs burned on this peaceful woodland, the young Moonlight Archer - Miya, stood up and gathered rest elves to protect their homeland. However the dominator of dark abyss is thirsty for more believers and the dark force has been growing stronger in secret. Seduced by the Blood Queen, Alice, some young elves have fallen. The race of moon elves was once again at stake, which outraged the great elven king! At a night of thunder and lightning, Estes woke up. He's strict but benevolent, and entitled with the strength by the sacred moonlight to protect his people and to support his allies. With the Code of Moonlight in his hands, he swore to repel every enemy who dares to violate his homeland.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "The Code Of Moon Elves",
+					"description" : "Code of Moon Elves will charge energy into Estes slowly. When it reaches the max stacking layer, it will improve his next basic attack, dealing 150 pts of magic damage to the target while slowing it down. The damage will ricochet and deal 225 pts of magic damage to nearby enemies.",
+					"imageURL" : "img/Estes/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Moonlight Immersion",
+					"description" : "Restores 220 pts of HP for the target immediately and links Estes with it for 3s which will restore 275 pts of HP for the target slowly. Linking with an ally will also improve the energy charging speed of the Code of Moon Elves. Being too far from the target will break the link.",
+					"imageURL" : "img/Estes/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Domain Of Moon Goddess",
+					"description" : "A flood of moonlight falls upon the specified area, dealing 350 pts of magic damage to enemy units within it. Afterwards, it turns to a domain of Moon Goddess. Enemies will be slowed down when they touch the barrier of the domain area.",
+					"imageURL" : "img/Estes/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Blessing Of The Moon Goddess",
+					"description" : "Incarnates into the Saint King of Moonlight for 8s, enhancing Moonlight Immersion. After casting the Blessing of Moon Goddess, Estes will release a weak Moonlight Immersion one time for surrounding allied heroes. In the duration of the Blessing of Moon Goddess, Estes regens 1080 HP over time.",
+					"imageURL" : "img/Estes/skill4.png"
+				}
+
+			}
+		]
+	},
+	{
+		"id" : "4",
+		"name" : "Hilda",
+		"alias" : "Power of Megalith",
+		"role" : "Fighter/Tank",
+		"specialty" : "Regen/Damage",
+		"imageURL" : "img/Hilda/square.png",
+		"backImage" : "img/Hilda/background.png",
+		"background" : "In the Megalith Wasteland, there’s nothing in sight except giant rocks and a few shrubs. This is where Hilda and her clan lives, in this sterile wilderness. Since the soil is extremely infertile, everyone in the clan needs to be an expert in hunting in order to find precious meat to survive. Since Hilda was born with extraordinary strength, she quickly became the leader of the hunting team, bringing her clan abundant food year after year. However, an unknown force caused the animals in the land to become wild and eventually uncontrollable. Hunting became harder and harder and finally, the wild animal seven started actively attacking the clans. Many of the clan members were killed, and the great priest also prophesied that a great darkness will destroy the land. Hilda, carrying the hope of her clan, sets out to the Land of Dawn to find new habitation for her clan. She became a mercenary travelling around the world, and because of this rich experience, she became a much-trusted warrior to her teammates.",
+		"abilities": 
+		[
+			{
+				"skill1":
+				{ 
+					"name" : "Blessing of Wilderness",
+					"description" : "Hilda's HP regen speed increases when she's in the bush.Entering the bush will give her a shield, this effect can only be triggered every 10 sec. When Hilda's HP runs low, she can obtain a great HP regen ability, this effect can only be triggered every 120 sec.",
+					"imageURL" : "img/Hilda/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Combat Ritual",
+					"description" : "Activates the great sword's rune power, temporarily increasing hero’s movement speed. Additionally, it’ll increase the physical damage dealt in the next basic attack, with slowing down effect, also dealing physical damage to enemies behind the target.",
+					"imageURL" : "img/Hilda/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Art Of Hunting",
+					"description" : "Locks onto one enemy target for pursuit, skill can be released 3 times maximum, the second attack will deal damage to target's surroundings, the third attack will knock back target and surrounding enemies temporarily, each time dealing physical damage.",
+					"imageURL" : "img/Hilda/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Power Of Wilderness",
+					"description" : "Hilda jumps toward the target and slashes powerfully and temporarily stuns the target, at the same time dealing physical damage to enemy units surrounding the target.Each kill or or assist attack will increase the magnitude of the skill, and once the maximum magnitude is reached, a set amount of extra damage can be dealt to enemies.",
+					"imageURL" : "img/Hilda/skill4.png"
+				}
+
+			}
+		]
+	},
+	{
+		"id" : "5",
+		"name" : "Nana",
+		"alias" : "Graveyard Party",
+		"role" : "Support/Mage",
+		"specialty" : "Reap/Crowd Control",
+		"imageURL" : "img/Nana/square.png",
+		"backImage" : "img/Nana/background.png",
+		"background" : "Nana was born deep in a magic forest, and as a rare cat elf, she was naturally endowed with powerful but hard to control magic abilities. Periodic rages of magic outburst nearly took out half of her forest home, until one day the journeying moon elf Miya restrained Nana and taught this young cat elf the secrets to control her magic abilities. The clever Nana quickly mastered these techniques, becoming a powerful cat elf mage. She decided to accompany Miya on her way to the Land of Dawn, in search of a new king together.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Molina's Gift",
+					"description" : "Nana and nearby allies receive 10 gold from Molina every 10 seconds.",
+					"imageURL" : "img/Nana/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Magic Boomerang",
+					"description" : "Launches a magical boomerang in the specified direction. Each time the boomerand hits an enemy, it will deal 180/210/240/270/300/330(+60% Total Magic Power) magic damage, and slowing them for 1.5 seconds.",
+					"imageURL" : "img/Nana/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Molina Smooch",
+					"description" : "Summons Molina to the designated area. After a short delay, Molina will lock onto an enemy hero and chase them, transforming them into a cat spirit while dealing 180/210/240/270/300/330(+50% Total Magic Power) magic damage and slowing them for 1.5 seconds. Reduce the Armor and Magic Resistance of transformed heroes by 25%.",
+					"imageURL" : "img/Nana/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Molina Blitz",
+					"description" : "Summons Molina to the designated area to attack three times. Each attack deals 360/560/640(+180% Total Magic Power) magic damage to enemies in the area and slow them for 2 seconds. If Molina hits a single enemy twice in a row, that enemy will be stunned for 1 seconds.",
+					"imageURL" : "img/Nana/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "6",
+		"name" : "Aurora",
+		"alias" : "Queen of the North",
+		"role" : "Mage",
+		"specialty" : "Crowd Control / Burst",
+		"imageURL" : "img/Aurora/square.png",
+		"backImage" : "img/Aurora/background.png",
+		"background" : "Aurora,born in a windstorm and with a great power of controlling ice and snow, is the queen of the northernmost land – Nost Gal, the dominator of the Frozen Sea and the Guardian of the Land of Dawn. Although they are all on this northern most land, Aurora never had any interest in the conflicts between Franco and Bane. She was born powerful and extraordinary. As one of the four Guardians of the Land of Dawn, she undertakes all those responsibilities of protecting the world, protecting its border and ensuring its safety from the space time rifts and monsters. During a horrible plane fight, Aurora lost one arm, along with her guardian knight. After this experience, the young queen became solemn and cold,silent and full of sorrow. When she riding on the wind travels, there's only snow and ice keeping her company.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Pride Of Ice",
+					"description" : "Each time the skill is released, one unit of frost energy will be added to hero, when 4 units of frost energy is collected, the next skill damage will freeze the target. All skills can cause extra magic damage to the frozen target.",
+					"imageURL" : "img/Aurora/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Frost Shock",
+					"description" : "Fires forward a Frost Energy Missile, when it hits the enemy it will detonate and deal radial Magic Damage and slow enemies down.",
+					"imageURL" : "img/Aurora/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Bitter Frost",
+					"description" : "Deals 420 magic damage at specified target and causes target's movement speed to drop 80% for 1.5s.",
+					"imageURL" : "img/Aurora/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Coldness Destroy",
+					"description" : "Summons a giant icy rock to bombard a designated target location, all enemy heroes hit will be slowed down and receive Magic Damage.Surrounding enemies of the target location where the rock lands also will be slowed down and receive Magic Damage.",
+					"imageURL" : "img/Aurora/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "7",
+		"name" : "Claude",
+		"alias" : "Partners in Crime",
+		"role" : "Marksman",
+		"specialty" : "Reap/Burst",
+		"imageURL" : "img/Claude/square.png",
+		"backImage" : "img/Claude/background.png",
+		"background" : "If you often go to the tavern, then you surely have often heard of Claude. His story is one of the favorite topics of tipsy travelers – One of the most famous legends in the Land of Dawn.\n\nRumor has it, that this teenage human has a special talent for thievery. To Claude, thievery is an art from rather than a crime. In fact, Claude would often a send his victims a notice to let them know when he would commit the crime.\n\nMuch to everyone’s bewilderment, Claude always succeeds in acquiring his targeted object, regardless of how strong or prepared are their rightful owners. Whether if the target is a king’s heavily-guarded treasury, a magic library protected by powerful spells, or an dark fortress filled with the undead – Nothing can stop Claude from taking what he wants. It is said that this young “Thief King” has a mysterious partner in crime. Some say his partner is a beautiful maiden, other’s say it’s his twin brother.\n\nHowever, most people believe in the version of the story where Claude’s partner is a wizard who practices black magic – This version quickly gained support after one Claude’s victims recalled hearing an odd laughter. In recent times, Claude is said to be eyeing the latest research of the famed machine specialist in the city of Antoinerei, Dr. Rooney, who’s said to have invented a device that would allow its user to freely travel across the planes of existence and create mirror images.\n\nThe Captain of the Guard, Bruno, caught wind of Claude’s hallmark notice and installed monitoring devices all over Antoinerei to catch him. As soon as Claude entered the city, he was caught by the City Guards and placed in an inescapable prison that utilized some of the best technology. Just when everyone thought this was the end of the Thief King’s reign, Claude’s mysterious partner helped Claude escape from the prison. Not only that, but they also successfully stole Dr. Rooney’s new invention from his lab, just as promised on Claude’s notice. As a triumphant Claude left Antonerei, he noticed that Dr. Rooney’s device had a small note: “I hope you make the best use of this device. If you happen to have any ideas for improvement, you must write to me! – Rooney”.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Battle Side-By-Side",
+					"description" : "Dexter launches an attack to help Claude. Deals 30% of Claude's damage in bonus damage to enemy units that were damaged by Claude's basic attacks. (Dexter also enjoys the basic attack bonus)",
+					"imageURL" : "img/Claude/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Art Of Thievery",
+					"description" : "Claude steals 20% of movement speed and 10% of attack speed of enemies within a fan-shaped area. Deals 160 (+40% Total Physical Attack) points of Physical Damage. Claude increases his own movement and attack speed for 6 seconds, depending on the number of enemies affected. The speed bonus of Claude is doubled when stealing speed from enemy heroes.",
+					"imageURL" : "img/Claude/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Battle Mirror Image",
+					"description" : "Claude uses Dr. Rooney's device to leave a mirror image of Dexter at a designated location. Dexter's mirror image automatically attacks enemy units. Mirror Image lasts for 5 seconds and deals 100% of Dexter's Physical Damage in basic damage. Claude can activate this skill again to switch places with the mirror image.",
+					"imageURL" : "img/Claude/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Blazing Duet",
+					"description" : "Claude and Dexter unleash a barrage attack, dealing continuous damage to enemies within the duo's surrounding area. Lasts for 3 seconds. Every hit inflicts 80 (+10% Total Physical Attack) points of Physical Damage to an enemy unit. This attack damage is considered a basic attack and triggers the effects of Claude's basic attacks. Also, generates a shield with 20 (+10% Total Physical Attack) points. Bonus attack speed will also increase hit rate. When Claude's attack is in full burst, enemy minions will experience 400% of damage.",
+					"imageURL" : "img/Claude/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "8",
+		"name" : "Gusion",
+		"alias" : "Holy Blade",
+		"role" : "Assasin/Mage",
+		"specialty" : "Charge/Burst",
+		"imageURL" : "img/Gusion/square.png",
+		"backImage" : "img/Gusion/background.png",
+		"background" : "The Paxley family is one of the most powerful and prestigious magic families in the Land of Dawn, and each member is raised to become a mage of the finest order. In their eyes, the path of the magician is the most sacred and noble vocation there is, and all those who brandish a sword in battle are merely weak, dim-witted fools. Gusion, however, is determined to break the mold. The patriarch's fourth son, Gusion, exhibited a high affinity towards light elements at a very early age, but rather than spend his days with his nose buried in a book, Gusion would use his control over light to imbue himself with the speed to run laps of the family estate in mere minutes, and to enchant old ceremonial swords with powerful light energy. He always believed that the family elders were incurably stubborn and rebelled against their wishes at every opportunity. Finally, Gusion was given the chance to prove himself, when the time came for him to take the Paxley family's most important test -- a rite of passage into adulthood. With Gusion's blistering speed in battle, his opponent was unable to lock onto his position, and with his light-charged blade, he claimed victory before his opponent even had a chance to launch a single spell. The elders were in awe of his incredible form and fighting technique, but with their deep-rooted prejudice against physical combat and their strict adherence to tradition, they gave Gusion two choices: to either abandon his fighting style, or be banished from the family. Facing such adversity and unable to control his rebelliously independent nature, Gusion chose to leave the family, convinced that soon the entire Land of Dawn would know his name and understand the true extent of his power.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Dagger Specialist",
+					"description" : "Each spellcast adds a rune to Gusion's dagger. After stacking 3 runes, the next basic attack will deal additional damage equal to 15% of the target's missing HP, and restore HP equal to 85% of the damage deal.",
+					"imageURL" : "img/Gusion/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Sword Spike",
+					"description" : "Throws a dagger in the specified direction, dealing 200(+80%Total Magic Power) magic damage to the first target hit. Use this skill again to appear behind the target and attack them for 200(+150%Total Magic Power) magic damage.",
+					"imageURL" : "img/Gusion/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Shadowblade Slaughter",
+					"description" : "Throws daggers forward, each dealing 130(+60%Total Magic Power) magic damage to targets hit and slowing them for 2s. Use again to recall daggers, dealing 80(+50%Total Magic Power) magic damage to enemies hit as they return.",
+					"imageURL" : "img/Gusion/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Incandescence",
+					"description" : "Dashes to a designated location, immidiately refresh Sword Spike and Shadowblade Slaughter cooldowns. This skill can be used again after a brief pause to dash a short distance in a specified direction. After being reset, Gusion will be able to immidiately throw five daggers with Shadowblade Slaughter, and recover ten.",
+					"imageURL" : "img/Gusion/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "9",
+		"name" : "Helcurt",
+		"alias" : "Shadow Bringer",
+		"role" : "Assasin",
+		"specialty" : "Charge/Burst",
+		"imageURL" : "img/Helcurt/square.png",
+		"backImage" : "img/Helcurt/background.png",
+		"background" : "In the historical records of the Land of Dawn, there is said to be a mysterious race who sacrificed their souls to the ruler of the Abyss in exchange for great power. Their bodies were transformed using dark magic, granting them the ability to swallow light and travel through space in the blink of an eye, allowing them to surprise their enemies with deadly sneak attacks. What was most terrifying about them, however, was the concoction of natural poisons emitted from their tails, for those unfortunate enough to come into contact with this poison would soon be saying their last words.\n\nHowever, this is what caused the ultimate demise of this race. In the annals, the specifics of how this race were wiped out are not made clear, but it is certain that this terrifying race definitely walked upon on the Land of Dawn. Since their extinction, humanity had progressed prosperously, however, the history books could not predict that one day these creatures would slowly creep out of the shadows once more...",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Race Advantage",
+					"description" : "Targets casting skills within 3 yards of Helcurt are silenced for 1s after the skill deals damage. This effect has a 3s cooldown on one single target.",
+					"imageURL" : "img/Helcurt/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Shadow Raid",
+					"description" : "Vanishes right away and appears at a target location, dealing 150/180/210/240/270/300(+70% Total Physical ATK) points of Physical Damage to nearby enemies and silencing them for 1.5s. Using after Dark Night Falls will also inflict an extra slow effect on enemies that lasts 1.5s.",
+					"imageURL" : "img/Helcurt/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Deadly Poisoned Stinger",
+					"description" : "Active: Fires his Deadly Poisoned Stingers forward, each stinger deals 200/240/280/320/360/400(+100% Extra Physical ATK) points of Physical Damage (minions and jungle monsters only take 70% of the damage), slowing the enemy by 12% (effect stacks) for 3s. Passive: Each basic attack increases one Deadly Poisoned Stinger, it stores up to 5 stingers and lasts 8, after which, the singers gradually disappear.",
+					"imageURL" : "img/Helcurt/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Dark Night Falls",
+					"description" : "Passive: Increases attack speed by 10%/15%/20%. Active: Helcurt summons the night, making all enemy heroes lose nearby vision and all their allied vision for 3.5/3.5/3.5s while increasing his attack speed by 10%/15%/20% and movement speed by 65%/70%/75% for 8/8/8s. (Enemy's Dark Night Falls has no effect on Helcurt)",
+					"imageURL" : "img/Helcurt/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "10",
+		"name" : "Hylos",
+		"alias" : "Grand Warden",
+		"role" : "Tank",
+		"specialty" : "Regen/Poke",
+		"imageURL" : "img/Hylos/square.png",
+		"backImage" : "img/Hylos/background.png",
+		"background" : "Amidst the misty mountains within the northern reaches of the Land of Dawn, reside an ancient and mysterious race of Centaurs. These centaurs guard a fountain that rests on the highest mountain peak. This fountain is said to give the gift of life. Dark forces have relentlessly tried to gain the power found within the waters of this fountain, but only to be time and time again be thwarted by the centaurs. However, as time went on, the centaurs tired and attrition soon took hold. It was not until he arrived, where he threw his mastery of nature's wrath he was able to punish all the invaders of the fountain. Hylos had become a legendary figure within the annals of the Land of Dawn.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Thickened Blood",
+					"description" : "Every 1 points of mana received from equipment and emblems, will also give Hylos 1 points of health. When mana is not enough, health can be used to cast skills instead.",
+					"imageURL" : "img/Hylos/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Law And Order",
+					"description" : "Stores nature's energy to lock down the target and deals 300/350/400/450/500/550 points of Magical Damage and stuns for 1s",
+					"imageURL" : "img/Hylos/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Ring Of Punishment",
+					"description" : "Releases the power of the centaurs to summon a Ring of Punishment, every second dealing to surrounding enemies 95/125/155/185/215/245 points of Magical Damage and also stacks Warden's Fury, every stack of Warden's Fury will reduce the enemy's movement speed by 6% and their attack speed by 5%, enemies will also take 7.5%/10%/12.5%/15%/17.5%/20% more damage from Ring of Punishment, Warden's Fury can stack a maximum of 10 times. Ring of Punishment will continuously use mana when it is active",
+					"imageURL" : "img/Hylos/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Glorious Pathway",
+					"description" : "Creates a pathway that lasts 6s, Hylos will heal 4%/4.5%/5% of maximum health and be immune to slows while on the pathway. Allies moving towards the pathway will have their movement speed increased by 60%/65%/70%, enemies moving away from the pathway will have their movement speed reduced by 70%/75%/80%.",
+					"imageURL" : "img/Hylos/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "11",
+		"name" : "Irithel",
+		"alias" : "Jungle Heart",
+		"role" : "Marksman",
+		"specialty" : "Reap",
+		"imageURL" : "img/Irithel/square.png",
+		"backImage" : "img/Irithel/background.png",
+		"background" : "Irithel was abandoned as a child in the jungle by her parents. Under the guidance of the God of the Jungle, a female smilodon that had just given birth adopted her. Under protection of the mother smilodon, the little smilodon Leo and Irithel learned to hunt, survive - she grew up like an animal. During a territorial fight, the mother smilodon was badly injured. When Irithel and her brother Leo went into town for help, these smilodon children were captured by a slave trader. When the cat elf mage - Nana passed by, she couldn't bear to watch them get beaten by the slave trader, so she used her supernatural strength to save these 2 poor children. With the help of Nana, Irithel learned to speak as a human and also learned how to fight, while Leo grew up to be a strong adult smilodon. However, to this day Irithel still hates human kind and trusts only her friend - Leo.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Jungle Heart",
+					"description" : "Irithel and Leo know each so well that it allows her to shoot while moving. Each basic attack shoots out 3 heavy arrows(it takes a while to reload the heavy bow), each arrow deals 40% Physical Damage (Only the first arrow can trigger gear passive abilities)",
+					"imageURL" : "img/Irithel/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Strafe",
+					"description" : "Shoots a round of arrows, dealing 250/280/310/340/370/400 Physical Damage to the enemies in the area and reducing their physical defense by 15/24/33/42/51/60 for 3s.",
+					"imageURL" : "img/Irithel/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Force Of The Queen",
+					"description" : "Leo shouts loudly, dealing 200/230/260/290/320/350 Physical Damage to the enemies in the area and reducing their movement speed by 80% for 2s.",
+					"imageURL" : "img/Irithel/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Heavy Crossbow",
+					"description" : "Jumps forward and equips a heavy crossbow that increases her basic attack by 5%, dealing Physical Damage to an enemy and nearby enemies for 15s.",
+					"imageURL" : "img/Irithel/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "12",
+		"name" : "Karina",
+		"alias" : "Shadow Blade",
+		"role" : "Assasin/Mage",
+		"specialty" : "Charge/Reap",
+		"imageURL" : "img/Karina/square.png",
+		"backImage" : "img/Karina/background.png",
+		"background" : "The ancestors of the Dark Elves were once noble Moon Elves, but the temptation of dark magic eventually subverted them, causing them to abandon their faith. The Moon Elves who turned their backs on the light lost the blessing of the Moon God, and were gradually eroded from within by dark energy, their skin becoming ashen and devoid of light. The Dark Elves, who make a living providing assassination services to other races, are born assassins able to use dark energy with ease. Karina is one of the best among them, and her assassination tasks are always carried out to perfection. But the Dark Elves sank deeper into the clutches of darkness, the most fanatical among them even sacrificed their own people to the demons of the Shadow Abyss in exchange for Dark Energy. As Karina watched these events transpire, she became filled with anxiety and confusion, and when her beloved sister, Selena, was chosen as the next sacrifice, Karina decided she could no longer stand idly by... She would never allow the demons to hurt her sister. She fought off her own people using her twin shadow blades, but even Karina could not resist the siege of the Dark Elves. Beaten to the brink of death, Karina watched as her sister was taken away by the envoys of the Shadow Abyss. Powerless, she felt her vision gradually blurring as her younger sister's cries became more and more distant. Sorrow and despair filled Karina's heart. She prayed to the gods she knew of, but to no avail. The Dark Elves raised their swords to end Karina's life, but were shocked to discover a dim blue glow radiating from the twin shadow blades in her hands. Although they had abandoned him for thousands of years, the Moon God still watched over the Elves, and granted Karina the blessing in her time of need. The Dark Elves could not believe what was happening before their eyes, and they chose to flee. A soft and gentle power trickled down into Karina's body, dissasipating the dark energy within her and healing her wounds. Karina stood up and vowed to turn away from her dark past, enraged by the pain of losing her sister. From that day on, no demon would escape the retribution of her moonshadow blades",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Combo Hit",
+					"description" : "After attacking a target twice in a row, the third attack will deal extra true damage that equals to 10% of enemy's lost HP.",
+					"imageURL" : "img/Karina/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Elusiveness",
+					"description" : "Karina enters a state of Elusiveness for 3 seconds, making her immune to basic attacks and increasing 35% of her movement speed. In this state, her next basic attack will slow sown enemy and must be a crit hit, dealing extra 165/175/185/195/205/215 pts of magic damage. Getting a kill or an assist will reduce this skill's cooldown by 60%.",
+					"imageURL" : "img/Karina/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Dance Of Death",
+					"description" : "Brandishes double swords, dealing 260/280/300/320/340/360 pts of magic damage to surrounding enemies. Getting a kill or an assist will reduce this skill's cooldown by 60%.",
+					"imageURL" : "img/Karina/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Shadow Rush",
+					"description" : "Rapidly rushes toward a target, dealing 430/530/630 magic damage. Killing any enemy hero will immediately end this skill's cooldown. An assist will lower remaining cooldown time 80%.",
+					"imageURL" : "img/Karina/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "13",
+		"name" : "Lesley",
+		"alias" : "Sniper",
+		"role" : "MarksMan/Assasin",
+		"specialty" : "Reap/Burst",
+		"imageURL" : "img/Lesley/square.png",
+		"backImage" : "img/Lesley/background.png",
+		"background" : "Lesley grew up in the Vance household, where her father presided over the noble family's security. During an attack by a rival family, Lesley's father was killed. As the assailants approached the Vance household, Lesley took up her father's black long rifle and fulfilled her late father's mission. Tears rolled down Lesley's cheeks as she fired shot after shot, each one taking down an assassin. The final tear came as the final shot took down the last of the rival family's men. Lesley was adopted by the Vance family, with the patriarch of the noble house even putting their sole heir, Harley under her tutelage. Harley, was a natural troublemaker, who used his talents in magic to cause trouble for the Vance household, only Lesley could keep Harley under control. Harley's troublemaker's streak was the last part of warmth within Lesley's conscience. After hearing about how Harley had travelled to the dangerous Land of Dawn, Lesley follow along with her trusty heirloom rifle. After she found Harley through a long arduous journey, she found the once immature young boy had changed through the numerous life experiences he had gone through. She decided it would be best to have her adopted little brother train here, while she silently protects him from the shadows. From that day on, all the monsters that were inflicted with Harley's magic would also be struck with a black bullet. Stories of the magical youngster that was followed by a mysterious black sniper soon spread.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Lethal Shoot",
+					"description" : "Hitting an enemy with a basic attack grants 5 energy. If Lesley doesn't take damage for 5s, her next basic attack has longer range, 35% crit chance, and deals x1.3 damage. Using any skill will reset Lethal Shoot's cooldown.",
+					"imageURL" : "img/Lesley/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Master Of Camouflage",
+					"description" : "Lesley enters Camouflage state for 3s, increasing movement speed by 30% and physical attack by 50. Dealing or taking damage will cancel the state. Enemies can detect Lesley's camouflage through distortions in their surroundings.",
+					"imageURL" : "img/Lesley/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Tactical Grenade",
+					"description" : "Throws a tactical grenade forwards, which explodes in fan-shaped area in front of her. Deals damage and knocks enemies back, while Lesley also jumps back slightly. Using this skill will instantly cancel Ultimate Snipe and release its fatal bullets. (Extra attacks will only be launched if fatal bullets have not finished firing.)",
+					"imageURL" : "img/Lesley/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Ultimate Snipe",
+					"description" : "Lesley abandons her senses and captures all enemy movements in an area by her mind. She locks onto an enemy hero and fires 4 deadly bullets, dealing 200(+80% Extra Physical ATK) +5% of the target's missing HP as physical damage. Each bullet that hits a target will restore 10 energy. Bullets can be blocked by other enemy heroes.",
+					"imageURL" : "img/Lesley/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "14",
+		"name" : "Minotaur",
+		"alias" : "Son of Minos",
+		"role" : "Tank/Support",
+		"specialty" : "Crowd Control",
+		"imageURL" : "img/Minotaur/square.png",
+		"backImage" : "img/Minotaur/background.png",
+		"background" : "The labyrinth-dwelling Minotaur was once a symbol of power for the entire kingdom, up until he was defeated by a youth from a far-off land. In the many months and years since, he has trained alone in his labyrinth, hoping for the day he may have a chance of defeating the young man. Time endowed the Minotaur with intelligence, and he learned how to concentrate his fury into more powerful explosions of strength. When he finally emerged from his labyrinth, he discovered that the thriving Minoan civilization had long ceased to be, and that the whole world had moved on. As he sat lamenting the absence of a proper outlet to show off his powers, a voice from a distant alternate dimension summoned him. This is how the Minotaur came to the Land of Dawn, where he can fully unleash his power and restore his name as the Son of Minos.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Rage Mode",
+					"description" : "Minotaur's rage increases whenever his basic attacks and skills hit an enemy unit. Once Minotaur's rage reaches its maximum, he will enter a rage state and gain bonus damage, armor and magic resistance (increases with level). Skills also gain bonus effects. After Minotaur loses his rage state, he can not recover rage for a brief period.",
+					"imageURL" : "img/Minotaur/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Despair Stomp",
+					"description" : "Minotaur jumps towards a designated location. Upon landing, Minotaur deals 280(+60% Total Physical Attack) points of Physical Damage to all surrounding enemies and slows them by 65%. Minotaur also recovers rage. If Minotaur is in rage state, the damage of this are becomes larger and deals 1.5% of the enemy's max HP in Physical Damage.",
+					"imageURL" : "img/Minotaur/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Motivation Roar",
+					"description" : "Minotaur motives himself and surrounding allies, Minotaur regenerates HP based on the damage he has taken, while allies are healed by 280 HP. Within 2 seconds, Minotaur recovers rage if attacked by a basic attack. If Minotaur is in rage state, he recovers a regeneration effects within 2 seconds, causing him to heal when attacked by basic attacks.",
+					"imageURL" : "img/Minotaur/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Minoan Fury",
+					"description" : "Minotaur enters a rage-save state where he continuously recovers rage. The longer Minotaur charges this skill the more rage he recovers. If in a rage state, Minotaur smashes the ground 3 times, sending shockwaves that deal 180(+85% Total Physical Attack) points of Physical Damage to surrounding enemies and slows them by 180(+85% Total Physical Attack). The last two shockwaves knock enemies up, while the final shockwave deals 70% points of True Damage.",
+					"imageURL" : "img/Minotaur/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "15",
+		"name" : "Moskov",
+		"alias" : "Spear of Queiscence",
+		"role" : "Marksman",
+		"specialty" : "Push/Burst",
+		"imageURL" : "img/Moskov/square.png",
+		"backImage" : "img/Moskov/background.png",
+		"background" : "Moskov, shooting to fame during the warrior tournament of tribes, was already a battle master at his youth. He inherited the family's occult spear fighting skills, and as the next leader of the clan Wildsand, he was loved and respected by many. Watching Wildsand clan growing stronger day by day, Kublai, the leader of Thornwolf couldn't hold back and let them become the new hegemony on Hietala grassland. One day when the youngsters of Wildsand went out hunting, he slaughtered the entire clan with his own people. The whole land was scorched by blazing flames of war. Blood flowed like stream, yet a slight warmth still remained on the bodies of died families and friends. Faced with this cruel vision, Moskov could not persuade himself to accept it. But even worse, Kublai dispatched a formidable cavalry trying to hunt down the Moskov's hunting party which was the only survivors from the massacre. In a panic, some escaped and some wanted to surrender, and Moskov, for the very first time, lifted his spear and aimed at his own buddies. Suffering from this painful experience, Moskov became ruthless with a thought of revenge haunting him constantly. However, Kublai was too strong to defeat. In order to obtain more power, Moskov chose to fall into the Abyss of Shadow and serve the Queen of Doom, becoming notorious as 'the Spear of Quiescence' ever since.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Spear Of Quiescence",
+					"description" : "Moskov’s basic attack can penetrate the targets and deal damage to enemies behind them. Hitting enemies successfully will reduce the cooldown of Abyss Walker and Spear of Death by 0.7s.",
+					"imageURL" : "img/Moskov/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Abyss Walker",
+					"description" : "Moskov uses the power of shadow to teleport to the specified position, enhancing attack’s penetration ability and increasing 20% attack speed, lasting 3s.",
+					"imageURL" : "img/Moskov/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Spear Of Death",
+					"description" : "Moskov strikes at an enemy hero with full strength, dealing 140 pts of physical damage and knocking back the target. If the airbone target collides with another enemy hero, then both enemies will receive 210 pts of physical damage and be stunned for 1s. If knocking into obstacles, the target will be stunned for 2s. The enemy's that hit cannot go into stealth mood for a while.",
+					"imageURL" : "img/Moskov/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Spear Of Destruction",
+					"description" : "Moskov throws out the Spear of Destruction after powering up shortly, dealing 450 pts of physical damage to enemies along a straight line. Every enemy it hits, it increases 10 pts of physical attack to Moskov, stacking up to 5 times, lasting 5s.",
+					"imageURL" : "img/Moskov/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "16",
+		"name" : "Pharsa",
+		"alias" : "Wings of Vengeance",
+		"role" : "Mage",
+		"specialty" : "Damage/Poke",
+		"imageURL" : "img/Pharsa/square.png",
+		"backImage" : "img/Pharsa/background.png",
+		"background" : "The Crow people of Askati Forest are one of the oldest races to still exist in the Land of Dawn. This race was united by the Crow King Osana, under whose venerable leadership they perfected the art of Sky Magic.This unique school of magic allows its wielder to soar across the skies, and grants the ability to strike from enormous distances, however, only those who have had their blood 'awakened' can use it. The noble Princess Pharsa was born with an unknown type of blood which was said to hold enormous potential if awakened, but as hard as they tried, the baffled people of her tribe failed to unleash its true power. Soon enough, Pharsa’s special blood became a burden, as ill-intentioned opportunists from across the land sought to reap it for their own benefit. On the day of Pharsa's wedding, the tyrannical witch Alice invaded the Askati Forest, mercilessly slaying countless Crows and leaving a smoldering trail of ruin in her wake. Numbed to the core by the carnage surrounding her, Pharsa dropped Osana's ancient crown to the floor. Her appearance began to change, as unprecedented power coursed through her veins -- her blood had been awakened. Pharsa's eyes clouded over, as one side of her hair turned pure white, and she soared into the sky to unleash a torrential assault of horrifying magical power fierce enough to drive Alice away. Verri, the love of her life, couldn’t bear to see his betrothed suffer a life of blindness alone, and chose to accompany Pharsa wherever she went, utilizing his own magic to become permanently linked to Pharsa, and allowing her to see through his eyes. Pharsa wishes her power had never been awakened, she wishes even more that her home had not been destroyed, but that witch took everything from her, and now it is time for revenge...",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Spiritual Unity",
+					"description" : "Every once a while, Verri enters the Hunting state, during which Pharsa deals extra 300 magic damage and slows enemies",
+					"imageURL" : "img/Pharsa/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Wings By Wings",
+					"description" : "Pharsa becomes a mist around Verri, flying over terrains for 5s. She leaves the state once being crowd controlled. Passive: Permanently increases magic power by 30/40/50/60/70/80.",
+					"imageURL" : "img/Pharsa/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Energy Impact",
+					"description" : "Releases magic energy, dealing 350/390/430/470/510/550 magic damage to a line of enemies.",
+					"imageURL" : "img/Pharsa/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Feathered Air Strike",
+					"description" : "Pharsa flies into the air and then launches a bombardment in a target area, dealing 500/600/700 magic damage in 13s.",
+					"imageURL" : "img/Pharsa/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "17",
+		"name" : "Rafaela",
+		"alias" : "Wing of Holiness",
+		"role" : "Support",
+		"specialty" : "Regen",
+		"imageURL" : "img/Rafaela/square.png",
+		"backImage" : "img/Rafaela/background.png",
+		"background" : "Rafaela is an angel capable of miraculously healing anything. It is said that when she appears, all pain suddenly vanishes, all wounds instantly heal, and all evil disperses like rain clouds when the sun comes out. Now Rafaela has descended upon the Land of Dawn in the hopes of using her miraculous powers to restore peace to the land.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Sacrificial Spirit",
+					"description" : "Upon death, Rafaela becomes a spirit that can move. but is unable to use her skills. For 4 seconds, Rafaela can continue to regenerate 920 - 2600 points of HP for her nearby allies, while increasing their movement speed. After 4 seconds, Rafaela deals 500 - 1200 points of True Damage to nearby enemies. (Regeneration and damage increases with skill level)",
+					"imageURL" : "img/Rafaela/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Light Of Retribution",
+					"description" : "Rafaela uses the power of Holy Light to deal 255(+120% Total Magic Power) Magic Damage to three nearest enemies, revealing those enemy units for a short period of time, and reducing their movement speed by 60% for 1.5 seconds. If this skill hits the same target within 5 seconds then the damage of this skill will increase by 10%. Stacks up to 5 times",
+					"imageURL" : "img/Rafaela/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Holy Healing",
+					"description" : "Rafaela summons Holy Light to regenerate 370(+50% Total Magic Power) HP for herself and the most-injured nearby ally. Regenerates 90(+25% Total Magic Power) HP for the other nearby allied heroes. Within the following 1 seconds increases movement speed by 50%",
+					"imageURL" : "img/Rafaela/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Holy Baptism",
+					"description" : "Rafaela uses the power of Holy Light to punish enemies in front of her, dealing 460(+120% Total Magic Power) points of Magic Damage and stunning them for 1.5 seconds.",
+					"imageURL" : "img/Rafaela/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "18",
+		"name" : "Ruby",
+		"alias" : "Little Red Hood",
+		"role" : "Fighter",
+		"specialty" : "Crowd Control",
+		"imageURL" : "img/Ruby/square.png",
+		"backImage" : "img/Ruby/background.png",
+		"background" : "A long time ago, brave hunter grandpa saved Little Red Hood and her granny from the wolf's belly and they lived happily ever after....though that was not how the real story ended. The wolf pack, harboring bitter resentment from this, never forgot the scars on the belly. One dark night when the moon was hidden, the new wolf king Haas led the pack and attacked the village in revenge, and elderly hunter grandpa was slain in an attempt to save granny. All of this happened before the eyes of Ruby, the Little Red Hood and drove this innocent girl into madness. With a scythe she sliced the wolf king into two pieces then peeled off its skin and swallowed its heart raw. Although the happy memories with grandma and grandpa still vividly flash before her eyes, things would never be the same again. After burying her families, Ruby started to wander in the Land of Dawn carrying her scythe. She made a vow - that she would create a happy ending for every story.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Let's Dance!",
+					"description" : "Ruby's basic attacks cannot trigger lifesteal effect but all skills will inherit 125% of gear lifesteal effect. Within a short period after releasing a skill, Ruby can leap to another position. Jumping or rolling backwards will increase Ruby's armor shortly (effects increase with level). Jumping forwards will allow Ruby's skills to slow down enemies for a short period.",
+					"imageURL" : "img/Ruby/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Be Good!",
+					"description" : "Slashes rapidly, dealing 50/70/90/110/130/150 pts of physical damage to front target. Meanwhile launches a shock wave forwards, dealing 50/70/90/110/130/150 pts of physical damage to the enemies it touches.",
+					"imageURL" : "img/Ruby/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Don't Run, Wolf King!",
+					"description" : "Wields the giant scythe to attack twice. Every attack deals 40/60/80/100/120/140 pts of physical damage, stunning the enemy for 0.5s and slowly pulling the enemy towards the hero. Deals additional 30% of damage to enemies in the outer ring.",
+					"imageURL" : "img/Ruby/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "I'm Offended!",
+					"description" : "Uses the scythe to attack horizontally in a wide range, dealing 205/340/475 pts of physical damage to hit enemies, pulling them to the hero's position and stunning them for 0.5s.",
+					"imageURL" : "img/Ruby/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "19",
+		"name" : "Selena",
+		"alias" : "Abyssal Witch",
+		"role" : "Assasin/Mage",
+		"specialty" : "Reap/Burst",
+		"imageURL" : "img/Selena/square.png",
+		"backImage" : "img/Selena/background.png",
+		"background" : "South of the Moniyan Empire lies a bottomless abyss, engraved into this barren landscape as if an ancient demon used the sharpest of blades to carve a disfiguring scar into the Land of Dawn. People call this the Shadow Abyss.\n\nSealed away at the bottom of this legendary abyss, lies the most terrible demon in the Land of Dawn - the Abyss Dominator. But as the seal slowly fades, the will of the abyss gradually grows stronger.\n\nThe demons at the bottom of the abyss tirelessly devise plots to strengthen the power of darkness, persuading misguided believers to provide them with sacrifices for their evil cause. They use these sacrifices to feed the 'Abyss Devil', a monster formed of the purest dark energy that waits in the darkness to devour its prey.\n\nSelena, a young Dark Elf, was sacrificed to the Shadow Abyss by fanatics in exchange for dark energy, and as Elves are the Abyss Devil's favorite sacrifices, Selena was offered up immediately by the demons. The Abyss Devil maniacally drilled into Selena, severe pain and desperation spreading through every corner of the young Elf girl's body. Just as she was about to be consumed by dark magic, a miracle occurred - a warm blue light enveloped the girl, and the dark abyssal magic and this mystical power began waging a savage battle inside her fragile, young body.\n\nSelena awoke find herself lying in the depth of the abyss, her skin now a mysterious blue tone and her lavender eyes filled with a scarlet glow, with the Abyss Devil lying quietly at her side.\n\nThe Demons of the Abyss were busy wondering what had just happened. Little did they know, the will of the Abyss had arrived. This girl is loved deeply, and this love has protected her from being consumed by darkness. The Abyss and the moon god - these two opposing forces have reached a balance within her body. An ancient, heavy voice echoed through the minds of the demons, Leave this girls to me. She will become the strongest warrior of the shadow Abyss! The demons obeyed the abyss' command and left her there. When Selena reappeared before the demonic inhabitants of the abyss, with the Abyss Devil at her side, she had completely forgotten her past.\n\nShe found that she could skillfully manipulate the abyss to release dark magic, a demon capable of tearing her enemies to shreds. The will of the Shadow Abyss appointed her as its voice, making it her duty to rule over the demonic denizens. Even the proud Queen of Blood Magic began to feel unnerved upon seeing this young Dark Elf Girl, not only because the abyss had chosen her, but also because Alice could sense the terrible power lying within this seemingly cute and mischievous youngster.",
+		"abilities": 
+		[
+			{
+				"formskill":
+				{
+					"name" : "Symbiosis",
+					"description" : "Because of the power bestowed upon her by the Moon God and the Abyss, Selena can switch freely between her two forms. Skill used in her Elven form will attach Abyssal Marks to her enemies, and skill used in Abyssal form will consume these marks to deal 390~600 (+50% Total Magic Power) bonus magical damage.",
+					"imageURL" : "img/Selena/formskill.png"
+				},
+				"form1":
+				{
+					"name" : "Elven Form",
+					"skill1":				
+					{ 
+						"name" : "Abyssal Trap",
+						"description" : "Summons Abyssal Devils to lurk in designated locations. When approached by enemy units, they will smother them with their bodies, dealing 350 (+120% Total Magic Power) Magical damage to the target and surrounding enemies after a brief period of time, while reducing their movement speed by 40% for 2s. Devils can also attached to Selena's body, but she will not take damage or be slowed by them. Up to 3 devils can exist at the same time. Damage will decay when a target is takes damage from multiple devils at the same time.",
+						"imageURL" : "img/Selena/skill11.png"
+					},
+
+					"skill2":
+					{
+						"name" : "Abyssal Arrow",
+						"description" : "hannels the power of the abyss into magic arrows then fires them in the specified direction. Enemy hit are stunned for at least 0.5s and take 250% (+20% Total Magic Power) Magical damage. Stun duration and damage increase the further the arrows fly. Abyssal Traps hit along the way will be absorbed and the trap's effect will be applied to the target when hit.",
+						"imageURL" : "img/Selena/skill12.png"
+					},
+					"skill3": 
+					{
+						"name" : "Primal Darkness",
+						"description" : "Selena melds with the Abyss, entering abyssal form and gaining 30% Movement speed for a short time. She also gains access to new skills while in abyssal form.",
+						"imageURL" : "img/Selena/skill13.png"
+					}
+				},
+				"form2":
+				{
+					"name" : "Abyssal Form",
+					"skill1":				
+					{ 
+						"name" : "Soul Eater",
+						"description" : "Uses the power of the abyss to strengthen both claws, cause the next basic attack to deal an additional 300 (+130% Total Magic Power) Magical damage, while granting ashield that absorbs 300 (+70% Total Magic Power) damage.",
+						"imageURL" : "img/Selena/skill21.png"
+					},
+
+					"skill2":
+					{
+						"name" : "Garotte",
+						"description" : "Charges in the specified direction, dealing 150 (+50% Total Magic Power) Magical damage to enemies along the way. If this damage triggers the Abyssal Mark effect, its cooldown will reset immediately.",
+						"imageURL" : "img/Selena/skill22.png"
+					},
+					"skill3":
+					{
+						"name" : "Blessing Of The Moon God",
+						"description" : "Calls upon the power of the Moon God to rid her body of the Abyss, increasing movement speed by 30% for a short time and restoring Elven skills.",
+						"imageURL" : "img/Selena/skill23.png"
+					}
+				}
+			}
+		]
+	},
+	{
+		"id" : "20",
+		"name" : "Valir",
+		"alias" : "Son Of Flame",
+		"role" : "Mage",
+		"specialty" : "Burst / Poke",
+		"imageURL" : "img/Valir/square.png",
+		"backImage" : "img/Valir/background.png",
+		"background" : "Legend has it, that at the end of the western desert, there lies a beautiful and rich country. This fabled land is where Valir is from. From his very first day at the magic academy, Valir's extraordinary control over the arcane was clear for all to see.\n\nGord, who was teaching arcane arts at the time, saw a little of himself in Valir, and began to teach the most coveted secrets of the arcane to his inquisitive pupil. However, Gord came to regret his actions, disturbed by the negative energy that began to radiate from Valir and his violent tendencies. Eventually, Valir started combining the ancient flame spells from his desert homeland with arcane power to create a unique form of arcane flame magic.\n\nGord felt he had betrayed himself, allowing his pure arcane wisdom to be tarnished by these wild flames from an unknown land. Enraged, Gord attempted to remove the power of flame from Valir's body. Valir resisted with all his might, and half of the academy was destroyed in the ensuing battle. At the end of the fracas, Gord was left feeling somewhat proud that Valir's arcane flame magic could hold up against his own pure arcane power. In the end, Valir left the academy, and Gord began working on creating a flying machine fueled by arcane energy, intent on searching the world for a new apprentice.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Arcane Flame",
+					"description" : "Condenses arcane flame over 20s, after which your next Burst Fire or Searing Torrent can be cast without a cooldown.",
+					"imageURL" : "img/Valir/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Burst Fire",
+					"description" : "Detonates raging flames, dealing 300 (+140% Total Magic Power) magic damage to enemies in the specified location and reducing their movement speed by 80% for 1.5s.",
+					"imageURL" : "img/Valir/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Searing Torrent",
+					"description" : "Phyrus unleashes a torrent of flames forward, knocking the enemy back and dealing 375 (+120% Total Magic Power) magic damage. Targets at the end of the torrent's range will take 125 (+40% Total Magic Power) additional magic damage.",
+					"imageURL" : "img/Valir/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Hellfire",
+					"description" : "Summons hellfire at a specified location, spewing random flame continuously in the specified area. Each hit deals 300 (130% Total Magic Power) magic damage to the target and knocks them up briefly",
+					"imageURL" : "img/Valir/skill4.png"
+				}
+			}
+		]
+	},
+	{
+		"id" : "21",
+		"name" : "Vexana",
+		"alias" : "Twisted Summoner",
+		"role" : "Mage",
+		"specialty" : "Burst",
+		"imageURL" : "img/Vexana/square.png",
+		"backImage" : "img/Vexana/background.png",
+		"background" : "A long, long time ago, there was a small country with a kind and caring king and queen, held in high esteem by their subjects. Under the protection of the King of Light, they lived a peaceful life. But deep underground, the dark lord of the Abyss was plotting to invade their land. The Dark Lord sent the enchanting vampire queen, Alice, to seduce the king. The king stopped attending court and no longer cared for his once beloved queen or kingdom. The king's betrayal razed the queen's sanity in flames of jealousy, and in an attempt to win back her husband's heart, she made a deal with the dark lord to regain her youth and beauty. Every day in the kingdom, another young and beautiful maiden went missing, and a panic fell over the people. The country grew weaker with each passing day, and the sacrifices demanded by the queen's sorcery grew as well. Finally, the kingdom collapsed, with no more sacrifices to be found, and the devouring power of darkness suddenly caused the queen to become a wizened and frightening monstrosity. A thousand years have passed, and this unknown kingdom has since disappeared in the winding river of history, leaving only the legend of the demon queen. Very few today connect this tale with the great and terrible Necromancer Vexana in the Land of Dawn. After all, it happened so very long ago.",
+		"abilities": 
+		[
+			{
+				"skill1":				
+				{ 
+					"name" : "Necromancy Spell",
+					"description" : "The twisted summoners adds an occult spell to targets who take damage from the Necromancer, lasting 5 seconds. While the spell lasts, the target will explode upon death, dealing 32=~600(+50% Total Magic Power) points of Magic Damage to surrounding units (base damage increases with level). Units who receive plague damage from puppets will also have Necromancy Spell cast on them.",
+					"imageURL" : "img/Vexana/skill1.png"
+				},
+
+				"skill2":
+				{
+					"name" : "Charmed Specter",
+					"description" : "Vexana unleashes phantom power forward, dealing 280(+60% Total Magic Power) points of Magic Damage. Heroes hit will lose control and rotate in a place for 1 second.",
+					"imageURL" : "img/Vexana/skill2.png"
+				},
+				"skill3":
+				{
+					"name" : "Nether Snare",
+					"description" : "Summons an other-worldly power to deal 500(+200% Total Magic Power) points of Magic Damage to a specified location.",
+					"imageURL" : "img/Vexana/skill3.png"
+				},
+				"skill4":
+				{
+					"name" : "Cursed Oath",
+					"description" : "Vexana puts a curse on an enemy hero that last 8 seconds (cannot be actively dispelled), and deals 250(+80% Total Magic Power) points of Magic Damage, plus an additional 75(+20% Total Magic Power) points of Magic Damage per second. If a target dies while under the curse, or the curse's duration comes to an end, Vexana will summon a puppet in the form of the target, that will follow her into battle. Puppets inherit 70% of the target's attributes, and continuously deal 5% of the puppet's Max HP as Magic Damage to surrounding enemies. Puppet last 20 seconds.",
+					"imageURL" : "img/Vexana/skill4.png"
+				}
+			}
+		]
+	}
+]

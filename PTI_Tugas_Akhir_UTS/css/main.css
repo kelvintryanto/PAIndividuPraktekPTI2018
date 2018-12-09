@@ -1,0 +1,173 @@
+body {
+	background-color: #0E0816;
+	color: #E7DFDD;
+	font: Verdana;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrapper-background1 {
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 10px;
+	color: #222;
+}
+
+.wrapper-background2 {
+	background-color: rgba(50,50,255,0.1);
+	border-radius: 10px;
+}
+
+/*CSS FOR HEADER*/
+#page-header {
+	height: 100px;
+	background-color: #4717F6; 
+}
+
+.pull-left{
+	float: left;
+	display: inline-block;
+	padding-top: 18px;
+}
+
+.pull-right{
+	float: right;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+/*END LINE OF CSS HEADER*/
+
+
+
+/*CSS FOR HERO ICON*/
+#hero-icon {
+	height: 100%;
+	padding: 15px;
+	text-align: center;
+	background: #000 url("../img/domino.gif") no-repeat center center;
+}
+
+#hero-icon img{
+	border-radius: 50%;
+	width: 100px;
+}
+
+.one-row img {
+	padding: 5px;
+	border: 2px solid transparent;
+	transition: transform .3s;
+}
+
+.one-row img:hover{
+	cursor: pointer;
+	border: 2px solid #4717F6;
+	transform: scale(1.1);
+}
+/*END LINE OF HERO ICON CSS*/
+
+fieldset {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+legend {
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 3px;
+}
+
+/*HERO DESCRIPTION*/
+#heroDescription{
+	height: 100%;
+	padding: 10px;
+}
+
+#heroDescription p {
+	line-height: 30px;
+}
+/*END LINE OF HERO DESCRIPTION*/
+
+
+/* HERO SKILL */
+#heroSkill {
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+}
+
+#heroSkill table {
+	border-collapse: collapse;
+}
+
+#heroSkill td {
+	border: 1px solid #AAA;
+    padding: 8px;
+    line-height: 30px;
+}
+/*END LINE OF HERO SKILL*/
+
+
+/*CSS FOR TABLE HERO*/
+#heroTable {
+	overflow: hidden;
+}
+
+#heroTable img {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+/*END LINE OF TABLE HERO*/
+
+/*CSS FOR FOOTER*/
+#footer {
+	position: relative;	
+	width: 100%;
+	color: white;
+	background-color: #4717F6;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.footer-content {
+	padding: 5px;
+}
+/*END LINE OF FOOTER*/
+
+
+/*WARNA DASAR*/
+.fuschia {
+ 	background-color: #A239CA;
+ 	color: #E7DFDD;
+}
+
+.stark {
+	background-color: #E7DFDD;
+	color: #0E0816;
+}
+
+.jewel {
+	background-color: #4717F6;
+	color: #0E0816;
+}
+
+.void{
+	background-color: #0E0816;	
+	color: #A239CA;
+}
+/*END LINE OF WARNA DASAR*/

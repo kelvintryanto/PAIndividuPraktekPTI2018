@@ -28,15 +28,24 @@ app.controller('homeCtrl', ['$scope', function($scope){
 		"method": "GET",
 		"headers": {},
 		"data": "{}"
-	  }
-	  
-	  $.ajax(settings).done(function (response) {
+	}
+	
+	$.ajax(settings).done(function (response) {
 		console.log(response);
-	  });
+		resp = JSON.stringify(response);
+		console.log(JSON.parse(resp).results)
+	});
+
+
+	// MAKE ELEMENT OF MOVIES
+	let singleRow = $('#home').children('div');
+		
+	singleRow.append(data);
+	
 }])
 
 app.controller('aboutmeCtrl', ['$scope', function($scope){
-
+	
 }])
 
 app.controller('myController', function($scope,$location,$rootScope){
