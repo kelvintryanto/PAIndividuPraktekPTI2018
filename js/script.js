@@ -13,6 +13,10 @@ app.config(function ($routeProvider, $locationProvider) {
 			templateUrl: 'view/aboutme.html',
 			controller: 'aboutmeCtrl'
 		})
+		.when('/details',{
+			templateUrl: 'view/details.html',
+			controller: 'detailsCtrl'
+		})
 
 	$locationProvider.html5Mode({
 		enabled: true,
@@ -20,6 +24,7 @@ app.config(function ($routeProvider, $locationProvider) {
 	})
 })
 
+//========================================================HOME CONTROLLER========================================================//
 app.controller('homeCtrl', ['$scope', function ($scope) {
 	var settings = {
 		"async": true,
@@ -35,6 +40,7 @@ app.controller('homeCtrl', ['$scope', function ($scope) {
 		resp = JSON.stringify(response);
 		console.log(JSON.parse(resp).results)
 		data = JSON.parse(resp).results;
+		localStorage.setItem('MovieDB', JSON.stringify(data));
 
 		//========================================================MAKE ELEMENT OF MOVIES========================================================//
 		for(let idx=0;idx<data.length;idx++){
@@ -72,7 +78,6 @@ app.controller('homeCtrl', ['$scope', function ($scope) {
 			let title = document.createElement('h4')
 			title.innerHTML = data[idx].title
 			let spans = document.createElement('span')
-			//format date here...
 			release_date = moment(data[idx].release_date).format('MMMM D, YYYY')
 			spans.innerHTML = release_date
 			$(bottom30).append(title)
@@ -103,14 +108,15 @@ app.controller('homeCtrl', ['$scope', function ($scope) {
 			$(parabtnDetail).append(detailIcon)
 			$(parabtnDetail).append(linkDetail)
 		}
-		//========================================================END OF MAKE ELEMENT MOVIES========================================================//
 	});
 }])
 
+//========================================================ABOUT ME CONTROLLER========================================================//
 app.controller('aboutmeCtrl', ['$scope', function ($scope) {
 
 }])
 
+//========================================================HOME CONTROLLER========================================================//
 app.controller('myController', function ($scope, $location, $rootScope) {
 	$scope.user = { 'username': '', 'password': '' };
 	//----- Users json
@@ -121,12 +127,6 @@ app.controller('myController', function ($scope, $location, $rootScope) {
 	var validUsers = { 'username': 'user', 'password': 'userpti' };
 	localStorage.setItem('UserID', JSON.stringify(validUsers));
 
-	//------------ini untuk mengambil item UserID-----------------//
-	// var retrievedUser = JSON.parse(localStorage.getItem('UserID'));
-	// console.log(retrievedUser);
-
-
-	// ------- Authenticate function
 	$scope.authenticate = function () {
 		var flag = false;
 		localStorage.setItem('flagLocal', JSON.stringify(flag));
@@ -165,3 +165,9 @@ app.controller('myController', function ($scope, $location, $rootScope) {
 	}
 
 });
+
+//========================================================DETAIL CONTROLLER========================================================//
+app.controller('detailsCtrl',function($scope){
+	var movieDB = localStorage.getItem('MovieDB');
+	console.log(JSON.parse(movieDB))
+})
