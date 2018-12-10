@@ -16,12 +16,8 @@
 	padding-top: 4px
 }
 
-.bg-semitransparent{
-	background: rgba(255,255,255,0.8);
-}
-
 /*-----------------------------------------------------------------------BODY BACKGROUND-----------------------------------------------------------------------*/
-.header{
+.header-body{
 	background-image: url(../images/login_background.png);
 	background-size: cover;
 	background-attachment: fixed;

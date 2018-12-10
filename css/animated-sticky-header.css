@@ -1,0 +1,26 @@
+header {
+  background: rgba(255,255,255,0.8);
+    transition: all 1200ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+        
+header.sticky {
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+header.sticky .navbar-brand{
+  color: #FFF;
+}
+
+header.sticky .navbar-brand:hover{
+  color: rgba(29, 110, 231, 0.87);
+}
+
+header.sticky .navbar-light .navbar-nav .nav-link{
+  color: #FFF;
+}
+
